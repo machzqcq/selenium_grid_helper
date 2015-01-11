@@ -1,4 +1,7 @@
-# selenium_grid_helper
+# Selenium GRID Helper  
+
+## What is Selenium GRID  
+
 This repo has all the scripts required to fire up a Selenium GRID. Selenium GRID creates 
 a network of machines where in there are two roles  
   
