@@ -1,0 +1,39 @@
+{
+  "capabilities":
+      [
+        {
+          "browserName": "firefox",
+		  "version": "35",
+		  "firefox_binary": "C:/Program Files (x86)/Mozilla Firefox/firefox.exe",
+		  "platform": "WINDOWS",
+          "maxInstances": 5,
+          "seleniumProtocol": "WebDriver"
+        },
+        {
+          "browserName": "chrome",
+		  "version": "39",
+		  "chrome_binary": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+		  "platform": "WINDOWS",
+          "maxInstances": 5,
+          "seleniumProtocol": "WebDriver"
+        },
+        {
+          "platform": "WINDOWS",
+          "browserName": "internet explorer",
+		  "version": "10",
+          "maxInstances": 5,
+          "seleniumProtocol": "WebDriver"
+        }
+      ],
+  "configuration":
+  {
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "maxSession": 5,
+    "port": 5558,
+    "host": ip,
+    "register": true,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "hubHost": ip
+  }
+}

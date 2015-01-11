@@ -6,3 +6,43 @@
 23:14:18.741 INFO [10] org.openqa.grid.internal.TestSlot - Trying to create a new session on test slot {seleniumProtocol=WebDriver, platform=WINDOWS, chrome_binary=C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, browserName=chrome, maxInstances=5, version=39}
 23:14:52.006 WARN [23] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to localhost:5558 [localhost/127.0.0.1] failed: Connection refused: connect
 23:41:12.793 INFO [1] org.openqa.grid.selenium.GridLauncher - Launching a selenium grid server
+00:43:30.134 INFO [1] org.openqa.grid.selenium.GridLauncher - Launching a selenium grid server
+00:52:21.965 WARN [23] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:52:27.968 WARN [23] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:52:27.969 WARN [23] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Marking the node as down. Cannot reach the node for 2 tries.
+00:52:33.972 WARN [23] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:52:39.977 WARN [23] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:52:45.981 WARN [23] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:52:51.985 WARN [23] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:52:57.988 WARN [23] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:53:03.999 WARN [23] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:53:10.012 WARN [23] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:53:16.017 WARN [23] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:53:22.021 WARN [23] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:53:28.025 WARN [23] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:53:28.026 WARN [23] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Unregistering the node. It's been down for 60057 milliseconds.
+00:53:28.027 WARN [23] org.openqa.grid.internal.Registry - Proxy 'host :http://192.168.1.2:5558' was previously registered.  Cleaning up any stale test sessions.
+00:55:26.702 WARN [26] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:55:32.714 WARN [26] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:55:32.715 WARN [26] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Marking the node as down. Cannot reach the node for 2 tries.
+00:55:38.717 WARN [26] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:55:44.721 WARN [26] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:55:50.726 WARN [26] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:55:56.729 WARN [26] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:56:02.733 WARN [26] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:56:08.736 WARN [26] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:56:14.739 WARN [26] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:56:20.746 WARN [26] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:56:26.760 WARN [26] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:56:32.764 WARN [26] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:56:32.765 WARN [26] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Unregistering the node. It's been down for 60050 milliseconds.
+00:56:32.765 WARN [26] org.openqa.grid.internal.Registry - Proxy 'host :http://192.168.1.2:5558' was previously registered.  Cleaning up any stale test sessions.
+00:57:57.867 WARN [29] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:58:03.869 WARN [29] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:58:03.870 WARN [29] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Marking the node as down. Cannot reach the node for 2 tries.
+00:58:09.873 WARN [29] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:58:15.877 WARN [29] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:58:21.880 WARN [29] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:58:27.894 WARN [29] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
+00:58:32.265 WARN [31] org.openqa.grid.internal.Registry - Proxy 'host :http://192.168.1.2:5558' was previously registered.  Cleaning up any stale test sessions.
+00:58:58.459 WARN [32] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to 192.168.1.2:5558 [/192.168.1.2] failed: Connection refused: connect
