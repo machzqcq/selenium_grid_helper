@@ -1,0 +1,20 @@
+23:47:52.717 INFO [1] org.openqa.grid.selenium.GridLauncher - Launching a selenium grid node
+23:47:52.764 INFO [1] org.openqa.grid.common.RegistrationRequest - Adding browserName=firefox,version=35,firefox_binary=C:\Program Files (x86)\Mozilla Firefox\firefox.exe,maxInstances=5,platform=WINDOWS
+23:47:52.764 INFO [1] org.openqa.grid.common.RegistrationRequest - Adding browserName=chrome,version=39,chrome_binary=C:\Program Files (x86)\Google\Chrome\Application\chrome.exe,maxInstances=5,platform=WINDOWS
+23:47:52.765 INFO [1] org.openqa.grid.common.RegistrationRequest - Adding browserName=internet explorer,version=10,maxInstances=5,platform=WINDOWS
+23:47:53.352 INFO [1] org.openqa.selenium.server.SeleniumServer - Writing debug logs to SELENIUMLOGS\selnode-5558.log
+23:47:53.352 INFO [1] org.openqa.selenium.server.SeleniumServer - Java: Oracle Corporation 24.71-b01
+23:47:53.352 INFO [1] org.openqa.selenium.server.SeleniumServer - OS: Windows 7 6.1 amd64
+23:47:53.357 INFO [1] org.openqa.selenium.server.SeleniumServer - v2.44.0, with Core v2.44.0. Built from revision 76d78cf
+23:47:53.438 INFO [1] org.openqa.selenium.server.SeleniumServer - RemoteWebDriver instances should connect to: http://127.0.0.1:5558/wd/hub
+23:47:53.439 INFO [1] org.openqa.jetty.http.HttpServer - Version Jetty/5.1.x
+23:47:53.439 INFO [1] org.openqa.jetty.util.Container - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+23:47:53.440 INFO [1] org.openqa.jetty.util.Container - Started HttpContext[/selenium-server,/selenium-server]
+23:47:53.440 INFO [1] org.openqa.jetty.util.Container - Started HttpContext[/,/]
+23:47:53.441 INFO [1] org.openqa.jetty.util.Container - Started org.openqa.jetty.jetty.servlet.ServletHandler@4f1c2642
+23:47:53.441 INFO [1] org.openqa.jetty.util.Container - Started HttpContext[/wd,/wd]
+23:47:53.443 INFO [1] org.openqa.jetty.http.SocketListener - Started SocketListener on 0.0.0.0:5558
+23:47:53.443 INFO [1] org.openqa.jetty.util.Container - Started org.openqa.jetty.jetty.Server@2d3584f9
+23:47:53.465 INFO [1] org.openqa.grid.internal.utils.SelfRegisteringRemote - using the json request : {"class":"org.openqa.grid.common.RegistrationRequest","configuration":{"port":5558,"Dwebdriver.ie.driver\u003dC:\\seleniumframework\\GRID-WindowsService\\selenium_grid_helper/IEDRIVERS/2.44/IEDriverServer.exe":"","host":"localhost","hubHost":"localhost","registerCycle":5000,"hub":"http://localhost:4444/grid/register","log":"SELENIUMLOGS\\selnode-5558.log","url":"http://localhost:5558","remoteHost":"http://localhost:5558","register":true,"proxy":"org.openqa.grid.selenium.proxy.DefaultRemoteProxy","browser":"browserName\u003dfirefox,version\u003d35,firefox_binary\u003dC:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe,maxInstances\u003d5,platform\u003dWINDOWS","maxSession":5,"role":"node","Dwebdriver.chrome.driver\u003dC:\\seleniumframework\\GRID-WindowsService\\selenium_grid_helper/CHROMEDRIVERS/2.13/chromedriver.exe":"","hubPort":4444},"capabilities":[{"seleniumProtocol":"WebDriver","platform":"WINDOWS","firefox_binary":"C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe","browserName":"firefox","maxInstances":"5","version":"35"},{"seleniumProtocol":"WebDriver","platform":"WINDOWS","chrome_binary":"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe","browserName":"chrome","maxInstances":"5","version":"39"},{"seleniumProtocol":"WebDriver","platform":"WINDOWS","browserName":"internet explorer","maxInstances":"5","version":"10"}]}
+23:47:53.466 INFO [17] org.openqa.grid.internal.utils.SelfRegisteringRemote - Starting auto register thread. Will try to register every 5000 ms.
+23:47:53.466 INFO [17] org.openqa.grid.internal.utils.SelfRegisteringRemote - Registering the node to hub :http://localhost:4444/grid/register
