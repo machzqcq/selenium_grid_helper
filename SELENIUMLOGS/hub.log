@@ -1,0 +1,7 @@
+23:13:16.276 INFO [1] org.openqa.grid.selenium.GridLauncher - Launching a selenium grid server
+23:13:56.818 INFO [15] org.openqa.grid.web.servlet.handler.RequestHandler - Got a request to create a new session: Capabilities [{platform=WINDOWS, cssSelectorsEnabled=true, javascriptEnabled=true, browserName=chrome, nativeEvents=false, rotatable=false, takesScreenshot=false, version=35}]
+23:14:18.740 INFO [15] org.openqa.grid.web.servlet.handler.RequestHandler - Got a request to create a new session: Capabilities [{platform=WINDOWS, cssSelectorsEnabled=true, javascriptEnabled=true, browserName=chrome, nativeEvents=false, rotatable=false, takesScreenshot=false, version=39}]
+23:14:18.740 INFO [10] org.openqa.grid.internal.ProxySet - Available nodes: [host :http://localhost:5558]
+23:14:18.740 INFO [10] org.openqa.grid.internal.BaseRemoteProxy - Trying to create a new session on node host :http://localhost:5558
+23:14:18.741 INFO [10] org.openqa.grid.internal.TestSlot - Trying to create a new session on test slot {seleniumProtocol=WebDriver, platform=WINDOWS, chrome_binary=C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, browserName=chrome, maxInstances=5, version=39}
+23:14:52.006 WARN [23] org.openqa.grid.selenium.proxy.DefaultRemoteProxy - Failed to check status of node: Connect to localhost:5558 [localhost/127.0.0.1] failed: Connection refused: connect

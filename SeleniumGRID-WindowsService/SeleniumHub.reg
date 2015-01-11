@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SeleniumHub\Parameters]
+"Application"="java.exe"
+"AppDirectory"=".."
+"AppParameters"="-Xrs -jar selenium-server-standalone-2.44.0.jar -role hub"
