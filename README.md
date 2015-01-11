@@ -17,7 +17,7 @@ It is assumed that you have JDK installed and JAVA_HOME environment variable is 
  
 ![alt text](https://github.com/machzqcq/selenium_grid_helper/raw/master/images/OverallFolderView.png "Overall view of Folders")
 
-# How to Start  
+# How to Start GRID 
 
 ## 1. Start Hub  
 Double click START_HUB.bat  
@@ -39,5 +39,18 @@ You should see something like this
 
 If you have other browser versions that you would like to start a node with, simply copy an existing START_NODEXXXX.bat and modify the versions of the browsers.   
 
-That is it ! If you already know how a selenium GRID works, the above information should suffice. Below is more detailed explanation. Oh, logs are created in SELENIUMLOGS folder
+That is it ! If you already know how a selenium GRID works, the above information should suffice. Below is more detailed explanation. Oh, logs are created in SELENIUMLOGS folder  
+
+# GRID as windows service  
+
+If you wish to start the GRID automatically whenever windows starts, then you can make them as windows services. Look into the SeleniumGRID-WindowsService folder.  
+
+**Tool for creating windows service**  
+Install rktools.exe on your machine. This will enable us to create windows service that can execute arbitrary commands, in our case start the jvm for hub & node
+
+**Modify the .reg files**  
+Open the Seleniumhub.reg and Seleniumnode.reg files in your favorite text editor and modify them as needed. If you leave as is, they start with default configuration i.e. 10 instances of firefox, 10 instances of chrome and 2 instances of ie  
+
+**Install the services**  
+Once you have completed the above two steps, double click the SeleniumServerInstall.bat and that should create two windows services viz. SeleniumHub and SeleniumNode. You can see the services in by entering "services.msc" in your run command
   
