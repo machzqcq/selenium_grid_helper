@@ -81,7 +81,7 @@ This helper has 2.44.0 selenium jar included, hence it uses that. If you wish to
 We have two json config files for hub and node and associated batch scripts that use this config. The config files use the same options that CH39_FF35_IE10 command line batch script uses, because I had those versions of browsers on my machine. If you would like to use different versions, then you will have to edit the values inside the config files.  
 
 ## Ports  
-The batch files use 4444 port for hub and 5555,5556 and so on port numbers. You may change them if you wish to or add new ones based on port availability  
+The batch files specify 4444 port for hub and 5555,5556 and so on port numbers for nodes. You may change them if you wish to or add new ones based on port availability  
 
 # Finally  
 There is a reason why we have used the structure CH39_FF35_IE10. Its because it aligns with using the [saucelabs](https://github.com/machzqcq/saucelabs) gem, that creates a RemoteWebDriver instance with a single line of code (at the minimum) if we specify the browser, version, platform values.  
@@ -89,7 +89,7 @@ There is a reason why we have used the structure CH39_FF35_IE10. Its because it 
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/fork )
+1. Fork it ( https://github.com/machzqcq/selenium_grid_helper/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
