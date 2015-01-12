@@ -1,5 +1,5 @@
 # Selenium GRID Helper  
-I looked at this [post] (http://rationaleemotions.wordpress.com/2012/01/23/setting-up-grid2-and-working-with-it/) and it was well written. Though it got me started, I felt it lacked many more configuration options that we have now (in 2015). The post was written in 2012. Hence this helper library. I used this in a large network based environment and so far so good  
+I looked at this [post] (http://rationaleemotions.wordpress.com/2012/01/23/setting-up-grid2-and-working-with-it/) and it was well written. Though it got me started, I felt it lacked many more configuration options that we have now (in 2015). The post was written in 2012. Hence this helper library. I used this in a large network based environment and so far so good. A more detailed end-end explanation is provided - http://www.seleniumframework.com/intermediate-tutorial/what-is-selenium-grid/  
 
 
 ## What is Selenium GRID  
